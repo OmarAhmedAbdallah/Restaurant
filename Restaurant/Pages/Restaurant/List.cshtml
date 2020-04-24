@@ -1,0 +1,32 @@
+﻿@page
+@model OmarRestaurant.Pages.Restaurant.ListModel
+@{
+}
+<h1>Restaurant</h1>
+
+<form method="get">
+    <div class="form-group">
+        <div class="input-group">
+            <input type="search" class="form-control" asp-for="SearchTerm" name="searchTerm"/>
+            <button type="submit">search</button>
+        </div>
+    </div>
+</form>
+
+<table class="table">
+    @foreach (var resturant in Model.Restaurants)
+    {
+        <tr>
+            <td>@resturant.Name</td>
+            <td>@resturant.Location</td>
+            <td>@resturant.Cuisine</td>
+            <td>
+                <a asp-page="./Detail" asp-route-restaurantId="@resturant.Id" class="btn btn-lg">
+                    Go
+                </a>
+            </td>
+        </tr>
+    }
+</table>
+
+<h1>@Model.message</h1>
