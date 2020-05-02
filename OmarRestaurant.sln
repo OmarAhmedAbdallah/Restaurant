@@ -3,30 +3,44 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29926.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OmarRestaurant", "Restaurant\OmarRestaurant.csproj", "{B0EA0838-E59F-49F4-857A-1D2B43D2DED2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OmarRestaurant.Core", "Restaurant.Core\OmarRestaurant.Core.csproj", "{1EFE496E-B729-46C7-A99A-D2E0F275C153}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OmarRestaurant.Core", "Restaurant.Core\OmarRestaurant.Core.csproj", "{1EFE496E-B729-46C7-A99A-D2E0F275C153}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OmarRestaurant.Data", "Restuarant.Data\OmarRestaurant.Data.csproj", "{A1318021-0DA4-4055-8485-59E236F8B58C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OmarRestaurant.Data", "Restuarant.Data\OmarRestaurant.Data.csproj", "{A1318021-0DA4-4055-8485-59E236F8B58C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OmarRestaurant", "Restaurant\OmarRestaurant.csproj", "{60F3B7FD-2C89-4B75-83BF-269AE2D87B88}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
 		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B0EA0838-E59F-49F4-857A-1D2B43D2DED2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B0EA0838-E59F-49F4-857A-1D2B43D2DED2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B0EA0838-E59F-49F4-857A-1D2B43D2DED2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B0EA0838-E59F-49F4-857A-1D2B43D2DED2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1EFE496E-B729-46C7-A99A-D2E0F275C153}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1EFE496E-B729-46C7-A99A-D2E0F275C153}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EFE496E-B729-46C7-A99A-D2E0F275C153}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{1EFE496E-B729-46C7-A99A-D2E0F275C153}.Debug|x86.Build.0 = Debug|Any CPU
 		{1EFE496E-B729-46C7-A99A-D2E0F275C153}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1EFE496E-B729-46C7-A99A-D2E0F275C153}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EFE496E-B729-46C7-A99A-D2E0F275C153}.Release|x86.ActiveCfg = Release|Any CPU
+		{1EFE496E-B729-46C7-A99A-D2E0F275C153}.Release|x86.Build.0 = Release|Any CPU
 		{A1318021-0DA4-4055-8485-59E236F8B58C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A1318021-0DA4-4055-8485-59E236F8B58C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1318021-0DA4-4055-8485-59E236F8B58C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A1318021-0DA4-4055-8485-59E236F8B58C}.Debug|x86.Build.0 = Debug|Any CPU
 		{A1318021-0DA4-4055-8485-59E236F8B58C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A1318021-0DA4-4055-8485-59E236F8B58C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1318021-0DA4-4055-8485-59E236F8B58C}.Release|x86.ActiveCfg = Release|Any CPU
+		{A1318021-0DA4-4055-8485-59E236F8B58C}.Release|x86.Build.0 = Release|Any CPU
+		{60F3B7FD-2C89-4B75-83BF-269AE2D87B88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60F3B7FD-2C89-4B75-83BF-269AE2D87B88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60F3B7FD-2C89-4B75-83BF-269AE2D87B88}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{60F3B7FD-2C89-4B75-83BF-269AE2D87B88}.Debug|x86.Build.0 = Debug|Any CPU
+		{60F3B7FD-2C89-4B75-83BF-269AE2D87B88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60F3B7FD-2C89-4B75-83BF-269AE2D87B88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60F3B7FD-2C89-4B75-83BF-269AE2D87B88}.Release|x86.ActiveCfg = Release|Any CPU
+		{60F3B7FD-2C89-4B75-83BF-269AE2D87B88}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
